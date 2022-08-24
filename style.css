@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: url(MeetingFairies_2048x1152.jpg.bbbbb38d6ccd575d2ca6f9bcc5ee768a.jpg);
+  background-size: 100%;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 50px;
+  background-color: black;
+  opacity: 0.9;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: gray;
+}
+
+.janela {
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+}
+
+ul{
+  color: white;
+  font-size: 35px;
+  text-align: left;
+}
+
+input{
+  font-size: 20px;
+  box-shadow: none;
+}

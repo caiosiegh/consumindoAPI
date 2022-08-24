@@ -13,8 +13,12 @@ function fazerGet() {
             let level = personagem.level
             let vocation = personagem.vocation
             let guild = personagem.guild.name
+            if (guild == undefined) {
+                guild = "Sem Guild"
+            }
             let world = personagem.world
             document.getElementById("personagem").innerText = ("Nome: " + name + "\nLevel: " + level + "\nVocação: " + vocation + "\nGuild: " + guild + "\n Mundo: " + world)
+            console.log(dados)
         })
 }
 fazerGet()

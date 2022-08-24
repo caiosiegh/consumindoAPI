@@ -4,18 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Consumindo uma API</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-  <h1>Pegando Nicks na API</h1>
-  <input type="text" id="name">
-  <input type="submit" value="Pesquisar" onclick="fazerGet()">
-  <ul id="personagem">
+  <header>
+    <nav class="menu">
+      <li><a href="https://github.com/caiosiegh" target="blank">Github</a></li>
+      <li><a href="https://www.linkedin.com/in/caiosiegh/" target="blank">Linkedin</a></li>
+      <li> <a href="sobremim.html">Sobre Mim</a></li>
+    </nav>
+  </header>
+  <section>
+    <div class="janela">
+      <h1>Digite o nome de um Personagem</h1>
+      <input type="text" id="name">
+      <input type="submit" value="Pesquisar" onclick="fazerGet()">
+      <ul id="personagem">
+      </ul>
+    </div>
+  </section>
+  <footer>
 
-  </ul>
+  </footer>
   <script src="index.js"></script>
 </body>
 
